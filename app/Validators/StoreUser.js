@@ -5,7 +5,7 @@ class StoreUser {
     return {
       email: 'required|email|unique:users',
       password: 'required|min:6:users',
-      cpf: 'required|min:11|max:11|unique:users'
+      cpf: 'required|number|min:11|max:11|unique:users'
     }
   }
 
@@ -20,7 +20,7 @@ class StoreUser {
       'cpf.unique': 'Cpf já cadastrado.',
       'cpf.min': 'CPF inválido',
       'cpf.max': 'CPF inválido',
-
+      'cpf.number': 'Somente numeros são aceitos',
     }
   }
 }
