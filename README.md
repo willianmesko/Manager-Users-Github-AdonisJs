@@ -17,7 +17,7 @@ GET /users/:id -
  
  <strong>LOGIN </strong> <br>
   POST /sessions -
-    no corpo da requisição recebe "email, senha" retorna o token jwt do usuário
+    no corpo da requisição recebe "email, senha" retorna o token jwt do usuário para ser utilizado no cabeçalho de autorização
   
 
 <strong>DEVELOPERS (Gitghub Users)</strong> <br>
