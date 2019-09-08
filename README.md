@@ -11,7 +11,7 @@ GET /users -
 lista todos os usuários cadastrados
 
 GET /users/:id -
- retorna todos os usuários cadastrados mais as listas criadas por ele
+ retorna todos os usuários cadastrados e as listas criadas por ele
  
  
  
