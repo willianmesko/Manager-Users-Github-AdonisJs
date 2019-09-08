@@ -15,12 +15,12 @@ GET /users/:id
  
  
  
- <strong>LOGIN </strong>
+ <strong>LOGIN </strong> <br>
   POST /sessions
     no corpo da requisição recebe "email, senha" retorna o token jwt do usuário
   
 
-<strong>DEVELOPERS (Gitghub Users)</strong>
+<strong>DEVELOPERS (Gitghub Users)</strong> <br>
  POST /devs
     no corpo da requisição recebe "username" do usuário no github (Somente admins podem adicionar usuários do github)
     
@@ -32,7 +32,7 @@ GET /users/:id
     
     
     
- <strong> LIST  </strong>
+ <strong> LIST  </strong> <br>
   POST /lists
     no corpo da requisição recebe "name" (Somente usuários comuns podem criar listas)
     
