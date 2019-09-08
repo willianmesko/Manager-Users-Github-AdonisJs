@@ -20,7 +20,7 @@ class StoreUser {
       'cpf.unique': 'Cpf já cadastrado.',
       'cpf.min': 'CPF inválido',
       'cpf.max': 'CPF inválido',
-      'cpf.number': 'Somente numeros são aceitos',
+      'cpf.number': 'Somente números são aceitos',
     }
   }
 }
