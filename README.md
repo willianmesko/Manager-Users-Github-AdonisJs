@@ -1,9 +1,9 @@
 Link da API no heroku : https://manager-github-users.herokuapp.com/
 
 
-<h1>ENDPOINTS</h1> <br>
+<h1>ENDPOINTS</h1>
 
- <strong>USERS </strong>
+ <strong>USERS </strong>  <br>
 POST /users 
 no corpo da requisição recebe "email, cpf, senha, admin(por default é 0)"
 
