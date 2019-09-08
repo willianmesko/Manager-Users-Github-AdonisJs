@@ -49,7 +49,7 @@ GET /users/:id -
      retorna todas as listas criadas pelo usuário logado
      
  POST list/:id/add -
-    Adiciona um desenvolvedor (usuário github na lista) 
+    Adiciona um desenvolvedor (usuário github ) na lista
     no corpo da requisição recebe "dev" sendo o username do dev no github <br>
     rebece "tags (não obrigatório)" para adicionar uma tag ao usuário da lista. <br>
     Ao adicionar mais de uma tag separar as tags por ",".
