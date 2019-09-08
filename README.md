@@ -5,7 +5,7 @@ Link da API no heroku : https://manager-github-users.herokuapp.com/
 
  <strong>USERS </strong>  <br>
 POST /users -
-no corpo da requisição recebe "email, cpf, senha, admin - caso o usário seja admistrador passar o valor 1, por default é 0
+no corpo da requisição recebe "email, cpf, senha, admin - caso o usuário seja admin passar o valor 1, por default é 0 
 
 GET /users -
 lista todos os usuários cadastrados
