@@ -37,7 +37,7 @@ GET /users/:id -
     no corpo da requisição recebe "name" (Somente usuários comuns podem criar listas)
     
   PUT /lists/:id -
-    atualiza uma lista criada pelo usúario logado
+    Atualiza uma lista criada pelo usuário logado, recebe "name" com o novo nome da lista no corpo da requisição
     
   DELETE /lists/:id -
     deleta uma lista criada pelo usuário logado
