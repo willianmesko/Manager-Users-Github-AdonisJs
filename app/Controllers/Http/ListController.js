@@ -27,7 +27,7 @@ class ListController {
     const {id: user_id} = auth.user;
     const {name} = request.body;
 
-    const listExists = await await List.query()
+    const listExists = await List.query()
                                       .where('name', name)
                                       .andWhere('user_id', user_id)
                                       .first();
